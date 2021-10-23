@@ -1,0 +1,5 @@
+virtualenv env 
+source env/Scripts/activate
+pip install -r requirements.txt
+django-admin startproject <name> .
+python manage.py runserver
